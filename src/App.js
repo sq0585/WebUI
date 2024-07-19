@@ -33,13 +33,11 @@ function App() {
   function postWebhook() {
     if (TeamImage) {
       // console.log(TeamImage)
-
-
       var fileImg = dataURLtoFile(TeamImage, "imagee.png")
 
       const payload = new FormData()
       payload.set("payload_json", JSON.stringify({
-        username: 'Thorny',
+        username: 'Nom',
         avatar_url: 'https://i.imgur.com/88dtJon.png',
         content: ``,
         allowed_mentions: {
