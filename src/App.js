@@ -160,7 +160,7 @@ function App() {
           <button onClick={postWebhook}>Submit</button>
         </div>
         <div>
-          <img style={{ maxHeight: "100vh" }} alt="" src='https://cdn.discordapp.com/attachments/895226507897741362/1262474495550296215/AOzVUa7LXNeHAAAAAElFTkSuQmCC.png?ex=669aaeff&is=66995d7f&hm=4d69374d0957cdb672c99acf1448ee99b0517fc052611a91c8583c04033ea542&' />
+          <img style={{ maxHeight: "100vh" }} alt="" src={process.env.REACT_APP_POINTSYSTEM} />
         </div>
       </div>
       <footer style={{ backgroundColor: "#23272A" }}>
